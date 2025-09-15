@@ -1,15 +1,18 @@
 """
-Inserta el encabezado aquí y escribe tu código abajo
+EL programa determina si una palabra comiena con cualquier vocal 
 """
 
 # Declaraciones
-CONSTANTE = valor
+
 
 # Entradas
-entrada = input()
+palabra = input("Introduce una palabra: ")
 
 # Proceso
-
+if palabra[0] in "aeiou":
+    mensaje = f"'{palabra}' comienza con vocal"
+else:
+    mensaje = f"'{palabra}' no comienza con vocal"
 
 # Salidas
-print(salida)
+print(mensaje)
